@@ -1,16 +1,1 @@
 @import "tailwindcss";
-
-/* Кастомная темная цветовая схема */
-@theme {
-  --color-dark-bg: #1f2937;      /* Темно-серый фон */
-  --color-darker-bg: #111827;    /* Еще темнее для акцентов */
-  --color-dark-surface: #374151; /* Для карточек и панелей */
-  --color-dark-border: #4b5563;  /* Границы */
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #1f2937; /* Темный фон по умолчанию */
-  color: #f9fafb; /* Светлый текст */
-}
