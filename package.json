@@ -1,5 +1,6 @@
 {
   "name": "welder-tracker",
+  "homepage": "https://woolfich.github.io/deepsya",
   "type": "module",
   "scripts": {
     "dev": "vite",
