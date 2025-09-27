@@ -4,13 +4,15 @@ import WelderCard from "./pages/WelderCard";
 import Summary from "./pages/Summary";
 import Norms from "./pages/Norms";
 
-export default function App() {
+function App() {
   return (
     <Router>
-      <Main path="/" />
-      <WelderCard path="/welder/:id" />
-      <Summary path="/summary" />
-      <Norms path="/norms" />
+      <Main path="/deepsya/deepsya/" />
+      <WelderCard path="/deepsya/deepsya/welder/:id" />
+      <Summary path="/deepsya/deepsya/summary" />
+      <Norms path="/deepsya/deepsya/norms" />
     </Router>
   );
 }
+
+export default App;

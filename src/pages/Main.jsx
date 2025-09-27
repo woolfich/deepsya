@@ -104,12 +104,12 @@ export default function Main() {
       {/* Нижняя панель */}
       <div className="fixed bottom-0 left-0 right-0 bg-gray-800/95 backdrop-blur-lg shadow-md z-50 border-t border-gray-700 px-4 py-3">
         <div className="max-w-6xl mx-auto flex justify-around gap-3">
-          <Link href="/summary" className="flex-1 no-underline">
+          <Link href="/deepsya/summary" className="flex-1 no-underline">
             <button className="w-full px-4 py-2 bg-transparent text-white rounded-xl font-medium hover:bg-gray-700 transition-colors">
               📊 Сводка
             </button>
           </Link>
-          <Link href="/norms" className="flex-1 no-underline">
+          <Link href="/deepsya/norms" className="flex-1 no-underline">
             <button className="w-full px-4 py-2 bg-transparent text-white rounded-xl font-medium hover:bg-gray-700 transition-colors">
               ⚙️ Нормы
             </button>

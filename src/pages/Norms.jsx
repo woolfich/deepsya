@@ -76,7 +76,7 @@ export default function Norms() {
     <div className="min-h-screen bg-gray-900 p-4">
       {/* Кнопка на главную */}
       <div className="mb-6">
-        <Link href="/">
+        <Link href="/deepsya/">
           <button className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors">
             ← На главную
           </button>

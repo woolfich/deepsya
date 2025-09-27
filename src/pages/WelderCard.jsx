@@ -135,7 +135,7 @@ export default function WelderCard({ id }) {
   if (!welder) {
     return (
       <div className="min-h-screen bg-gray-900 p-4">
-        <Link href="/" className="inline-block mb-4">
+        <Link href="/deepsya/" className="inline-block mb-4">
           <button className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600">← На главную</button>
         </Link>
         <div className="text-white">Загрузка...</div>
@@ -147,7 +147,7 @@ export default function WelderCard({ id }) {
     <div className="min-h-screen bg-gray-900 p-4">
       {/* шапка */}
       <div className="mb-6">
-        <Link href="/" className="inline-block mb-4">
+        <Link href="/deepsya/" className="inline-block mb-4">
           <button className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600">← На главную</button>
         </Link>
         <div className="flex items-center gap-3">
