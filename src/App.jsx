@@ -7,10 +7,10 @@ import Norms from "./pages/Norms";
 function App() {
   return (
     <Router>
-      <Main path="/deepsya/deepsya/" />
-      <WelderCard path="/deepsya/deepsya/welder/:id" />
-      <Summary path="/deepsya/deepsya/summary" />
-      <Norms path="/deepsya/deepsya/norms" />
+      <Main path="/" />
+      <WelderCard path="/welder/:id" />
+      <Summary path="/summary" />
+      <Norms path="/norms" />
     </Router>
   );
 }

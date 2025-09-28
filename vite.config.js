@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [tailwindcss(), preact()],
-  base: '/deepsya/',
+  base: '/', // ← для локалки
   build: { outDir: 'dist' }
 })
