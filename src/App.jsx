@@ -1,18 +1,17 @@
-import { Router } from "preact-router";
-import Main from "./pages/Main";
-import WelderCard from "./pages/WelderCard";
-import Summary from "./pages/Summary";
-import Norms from "./pages/Norms";
+// src/App.jsx
+import { Router } from 'preact-router';
+import Main from './pages/Main';
+import Norms from './pages/Norms';
+import Summary from './pages/Summary';
+import WelderCard from './pages/WelderCard';
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Main path="/" />
-      <WelderCard path="/welder/:id" />
-      <Summary path="/summary" />
       <Norms path="/norms" />
+      <Summary path="/summary" />
+      <WelderCard path="/welder/:id" />
     </Router>
   );
 }
-
-export default App;
