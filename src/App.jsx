@@ -1,17 +1,3 @@
-// src/App.jsx
-import { Router } from 'preact-router';
-import Main from './pages/Main';
-import Norms from './pages/Norms';
-import Summary from './pages/Summary';
-import WelderCard from './pages/WelderCard';
-
 export default function App() {
-  return (
-    <Router>
-      <Main path="/" />
-      <Norms path="/norms" />
-      <Summary path="/summary" />
-      <WelderCard path="/welder/:id" />
-    </Router>
-  );
+  return <h1 style={{color:'tomato'}}>App работает!</h1>
 }
