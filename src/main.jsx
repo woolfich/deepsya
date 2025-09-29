@@ -1,3 +1,6 @@
-import { render } from 'preact'
+// src/main.jsx
+import { render } from "preact";
+import App from "./App.jsx";
+import "./index.css";
 
-render(<h1 style={{color:'red'}}>Preact жив!</h1>, document.getElementById('app'))
+render(<App />, document.getElementById("app"));
